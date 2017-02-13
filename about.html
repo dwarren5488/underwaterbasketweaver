@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<title>A Blog about Hacking and Security By David Warren</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+<style>
+<head>
+<!--.CSS for nav bar-->
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav" id="myTopnav">
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
+</ul>
+<!--Javascript for a more responsive nav bar-->
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+  <h1><b>About ME</b></h1>
+  <p>A Hacking and Security Blog by <span class="w3-tag">David Warren</span></p>
+</header>
+</body>
+					<!--http://gdriv.es/dwwebimages source for images not working---->
+<!-- Grid -->
+<div class="w3-row">
+<div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="https://4.bp.blogspot.com/-3f9Lp9y2m-c/V_nzo1sbKII/AAAAAAACEj0/W5eHx_pE-_I-igMPzpIHwUwaB9tO2OUJACPcB/s0/3D_Puzzle_Pieces_4k.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Little bit about me..</b></h4>
+	  <p>I think it all started pre-highschool where I fell in love with sports and video games.  At first I wanted to develop and make video games but then I quickly realised that I enjoy playing them instead.  Once I reached highschool I became inveloped with my first laptop and fell in love with learning everything about it. I started out burning music cd's and dvd's making a little cash on the side. As I began to learn more about computers new technologies kept surfacing especially cellphones. From my freshman year in highschool I distintly remeber the "Motorola razr" as the hottest flip phone out, by my senior year I had an "LG Optimus L70" my first smart phone. So in a little as 4 years we came from T9-texting to the Swipe keyboard where you don't need to lift a finger to type a word. As of today we can now say a simple command such as "Ok Google" and send messages within a few seconds without lifting a finger. I really do appreciate how technology has made our lives much easier especially communication but with every positive there is surely a negative. </p>
+	  <p>Question everything.</p>
+    </div>
+  </div><hr>
+
+<div class="w3-col l8 s12">
+ 
+  <hr>
+
+
+  </div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Me -->
+ <!-- <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="https://4.bp.blogspot.com/-3f9Lp9y2m-c/V_nzo1sbKII/AAAAAAACEj0/W5eHx_pE-_I-igMPzpIHwUwaB9tO2OUJACPcB/s0/3D_Puzzle_Pieces_4k.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Little bit about me..</b></h4>
+	  <p>I think it all started pre-highschool where I fell in love with sports and video games.  At first I wanted to develop and make video games but then I quickly realised that I enjoy playing them instead.  Once I reached highschool I became inveloped with my first laptop and fell in love with learning everything about it. I started out burning music cd's and dvd's making a little cash on the side. As I began to learn more about computers new technologies kept surfacing especially cellphones. From my freshman year in highschool I distintly remeber the "Motorola razr" as the hottest flip phone out, by my senior year I had an "LG Optimus L70" my first smart phone. So in a little as 4 years we came from T9 texting to the Swipe keyboard where you don't need to lift a finger to type a word. As of today we can now say a simple command such as "Ok Google" and send messages within a few seconds without lifting a finger. I really do appreciate how technology has made our lives much easier especially communication but with every positive there is surely a negative. </p>
+	  <p>Question everything.</p>
+    </div>
+  </div><hr>-->
+  
+  <!--popular posts-->
+    <div class="w3-container w3-padding">
+      <h4>Popular Posts</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="http://cdn2.digitaltrends.com/dt-logo-200x200.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large"><a href="http://www.digitaltrends.com/mobile/uber-rider-location-tracking/">Uber</a></span><br>
+        <span>A feature in the app tracks you before and after your ride.</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="https://lh5.googleusercontent.com/-s7IB0zlwPQw/AAAAAAAAAAI/AAAAAAAAKGA/1seczCuRcsg/s0-c-k-no-ns/photo.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large"><a href="http://thehackernews.com/2016/12/dailymotion-video-hacked.html">DailyMotion</a></span><br>
+        <span>80 million accounts hacked...</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="https://pbs.twimg.com/profile_images/583628771972018176/ztJn926g.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large"><a href="http://www.independent.co.uk/news/uk/crime/criminals-guess-visa-card-details-fraud-six-seconds-a7450776.html">Credit Cards</span></a><br>
+        <span>The more you guess the more you know...</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="https://media.scmagazine.com/images/2016/10/31/scbetalogo1080860_1083188.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large"><a href="https://www.scmagazine.com/when-it-comes-to-iot-more-security-is-needed/article/578654/">IoT</span></a><br>
+        <span>IoT is great until it is rendered unsafe...</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card-2 w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">WireShark</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">White Hat</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IoT</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">HTML</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Black Hat</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Cyper Security</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Computers</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Crime</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Security</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Virus</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hacking</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IT</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">SSD</span>
+    </p>
+    </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<!--pagination-->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+ <style>
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+    background-color: #9999ff;
+ul.pagination li a.active {
+    color: grey;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+</style>
+</head>
+<body>
+
+<ul class="pagination">
+  <li><a href="index.html">«</a></li>
+  <li><a href="index.html">1</a></li>
+  <li><a class="active" href="page2.html">2</a></li>
+  <li><a href="page3.html">3</a></li>
+  <li><a href="page4.html">4</a></li>
+  <li><a href="page5.html">5</a></li>
+  <li><a href="#">6</a></li>
+  <li><a href="#">7</a></li>
+  <li><a href="#">»</a></li>
+</ul>
+  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+<!--end pagination-->
+
+</body>
+</html>
